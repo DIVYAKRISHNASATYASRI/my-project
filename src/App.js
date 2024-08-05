@@ -14,7 +14,6 @@ const Convert = () => {
             grams: pounds / 0.0022046,
             kilograms: pounds / 2.2046
         });
-
         if (pounds === "") {
             setState(data);
         }
